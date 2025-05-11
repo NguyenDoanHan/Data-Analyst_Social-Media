@@ -5,7 +5,7 @@ import matplotlib.pyplot as plt
 
 #1.Định nghĩa các trường thông tin của sheet Dữ liệu
 """đọc và hiện thị dữ liệu"""
-df_RA = pd.read_excel("RA_Bài test Data Analyst_Social Media Data Analyst Intern.xlsx")
+df_RA = pd.read_excel("Data Analyst_Social Media.xlsx")
 print("Thông tin cột dữ liệu:")
 print(df_RA.columns)
 print(df_RA.info())
